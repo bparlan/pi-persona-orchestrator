@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+npm/node_modules/
+
+# Sessions & runtime data
+sessions/
+reflect.json
+reflect-history.json
+
+# Environment & secrets
+.env
+.env.local
+*.pem
+*.key
+
+# OS & editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build artifacts
+dist/
+build/
