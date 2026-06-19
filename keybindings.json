@@ -1,0 +1,13 @@
+{
+  "app.editor.external": ["ctrl+g", "ctrl+shift+e"],
+  "tui.editor.cursorWordLeft": ["alt+left", "ctrl+left"],
+  "tui.editor.cursorWordRight": ["alt+right", "ctrl+right"],
+  "tui.editor.deleteWordBackward": ["ctrl+w", "alt+backspace"],
+  "tui.editor.deleteWordForward": ["alt+d"],
+  "tui.editor.cursorLineStart": ["home", "ctrl+a"],
+  "tui.editor.cursorLineEnd": ["end", "ctrl+e"],
+  "tui.editor.deleteToLineStart": ["ctrl+u"],
+  "tui.editor.deleteToLineEnd": ["ctrl+k"],
+  "tui.editor.undo": ["ctrl+-"],
+  "tui.input.newLine": ["shift+enter"]
+}

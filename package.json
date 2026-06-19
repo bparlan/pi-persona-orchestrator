@@ -1,0 +1,22 @@
+{
+  "name": "@bparlan/pi-persona-orchestrator",
+  "version": "1.0.0",
+  "description": "Lightweight, local-first agentic infrastructure — eliminates subagent bloat via Pi's native TypeScript extensions and static, versioned Personas",
+  "keywords": ["pi-package", "orchestrator", "pipeline", "persona", "modular"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bparlan/pi-persona-orchestrator.git"
+  },
+  "pi": {
+    "extensions": ["./extensions"],
+    "skills": ["./skills"],
+    "prompts": ["./prompts"],
+    "personas": ["./personas"],
+    "templates": ["./templates"]
+  },
+  "dependencies": {
+    "@earendil-works/pi-ai": "^0.74.1",
+    "@earendil-works/pi-tui": "^0.74.1",
+    "pi-planning-with-files": "^1.0.1"
+  }
+}

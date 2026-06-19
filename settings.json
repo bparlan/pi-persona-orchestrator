@@ -1,0 +1,28 @@
+{
+  "compaction": {
+    "autoCompact": true,
+    "reserveTokens": 8192
+  },
+  "defaultModel": "deepseek/deepseek-v4-flash",
+  "defaultProvider": "openrouter",
+  "defaultThinkingLevel": "off",
+  "lastChangelogVersion": "0.79.1",
+  "packages": [
+    "npm:pi-planning-with-files"
+  ],
+  "promptDirs": [
+    "/Users/bparlan/.pi/agent/agents"
+  ],
+  "providerOptions": {
+    "openrouter": {
+      "extraHeaders": {
+        "HTTP-Referer": "https://www.github.com/bparlan/",
+        "X-OpenRouter-Title": "pi.dev Agentic Coder"
+      }
+    }
+  },
+  "theme": "synth",
+  "thinking": "off",
+  "workingVibe": "noir",
+  "workingVibeMode": "file"
+}

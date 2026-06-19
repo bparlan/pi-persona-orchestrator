@@ -1,0 +1,42 @@
+{
+  "targets": [
+    {
+      "path": "~/.pi/agent/memory/AGENTS.md",
+      "label": "Behavioral Rules",
+      "lookbackDays": 7,
+      "maxSessionBytes": 400000,
+      "backupDir": "~/.pi/agent/reflect-backups/agents",
+      "transcriptSource": { "type": "pi-sessions" }
+    },
+    {
+      "path": "~/.pi/agent/memory/MEMORY.md",
+      "label": "Long-term Memory",
+      "lookbackDays": 14,
+      "maxSessionBytes": 500000,
+      "backupDir": "~/.pi/agent/reflect-backups/memory"
+    },
+    {
+      "path": "~/.pi/agent/memory/SCRATCHPAD.md",
+      "label": "Open Scratchpad Items",
+      "lookbackDays": 7,
+      "instruction": "Propose moving resolved items to MEMORY.md or deleting them. Suggest new structure if the file is becoming chaotic."
+    }
+  ],
+  "context": [
+    {
+      "type": "files",
+      "label": "Recent daily logs",
+      "paths": ["~/.pi/agent/memory/daily/*.md"],
+      "maxBytes": 80000
+    },
+    {
+      "type": "files",
+      "label": "Notes & scratchpad",
+      "paths": [
+        "~/.pi/agent/memory/notes/*.md",
+        "~/.pi/agent/memory/SCRATCHPAD.md"
+      ],
+      "maxBytes": 50000
+    }
+  ]
+}

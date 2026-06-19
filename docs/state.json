@@ -1,0 +1,41 @@
+{
+  "mode": "manual",
+  "milestone": "",
+  "spec": "",
+  "verification": "",
+  "status": "pending",
+  "auto_mode": false,
+  "phases": {
+    "milestone": {
+      "retryCount": 0,
+      "lastRun": "",
+      "lastOutcome": "success"
+    },
+    "spec": {
+      "retryCount": 0,
+      "lastRun": "",
+      "lastOutcome": "success"
+    },
+    "verify": {
+      "retryCount": 0,
+      "lastRun": "",
+      "lastOutcome": "success"
+    },
+    "implement": {
+      "retryCount": 0,
+      "lastRun": "",
+      "lastOutcome": "success"
+    },
+    "review": {
+      "retryCount": 0,
+      "lastRun": "",
+      "lastOutcome": "success"
+    },
+    "debug": {
+      "retryCount": 0,
+      "lastRun": "",
+      "lastOutcome": "success"
+    }
+  },
+  "fixes_applied": []
+}

@@ -1,0 +1,34 @@
+{
+  "providers": {
+    "ollama": {
+      "api": "openai-responses",
+      "apiKey": "ollama",
+      "baseUrl": "http://localhost:11434/v1",
+      "compat": {
+        "supportsUsageInStreaming": false,
+        "supportsSystemMessages": true,
+        "supportsMessageHistory": true,
+        "supportsTools": false,
+        "maxTokensField": "max_tokens"
+      },
+      "models": [
+        {
+          "id": "qwen2.5:14b",
+          "name": "Qwen2.5 14b - Local",
+          "contextWindow": 16384,
+          "maxTokens": 4096,
+          "input": ["text"],
+          "reasoning": false
+        },
+        {
+          "id": "qwen2.5:7b",
+          "name": "Qwen2.5 7b - Local",
+          "contextWindow": 16384,
+          "maxTokens": 4096,
+          "input": ["text"],
+          "reasoning": false
+        }
+      ]
+    }
+  }
+}

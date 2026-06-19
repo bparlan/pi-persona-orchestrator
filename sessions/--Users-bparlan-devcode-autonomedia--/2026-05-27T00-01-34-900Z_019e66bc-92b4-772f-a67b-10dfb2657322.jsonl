@@ -1,0 +1,5 @@
+{"type":"session","version":3,"id":"019e66bc-92b4-772f-a67b-10dfb2657322","timestamp":"2026-05-27T00:01:34.900Z","cwd":"/Users/bparlan/devcode/autonomedia"}
+{"type":"model_change","id":"364bed11","parentId":null,"timestamp":"2026-05-27T00:01:34.952Z","provider":"cerebras","modelId":"qwen-3-235b-a22b-instruct-2507"}
+{"type":"thinking_level_change","id":"1cc27053","parentId":"364bed11","timestamp":"2026-05-27T00:01:34.952Z","thinkingLevel":"off"}
+{"type":"message","id":"719a32aa","parentId":"1cc27053","timestamp":"2026-05-27T00:01:44.294Z","message":{"role":"user","content":[{"type":"text","text":"/pi-sync session"}],"timestamp":1779840104291}}
+{"type":"message","id":"38b3f257","parentId":"719a32aa","timestamp":"2026-05-27T00:01:44.960Z","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"cerebras","model":"qwen-3-235b-a22b-instruct-2507","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1779840104330,"errorMessage":"429 status code (no body)"}}

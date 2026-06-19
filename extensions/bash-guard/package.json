@@ -1,0 +1,7 @@
+{
+  "name": "bash-guard",
+  "version": "1.0.0",
+  "dependencies": {
+    "shell-quote": "latest"
+  }
+}

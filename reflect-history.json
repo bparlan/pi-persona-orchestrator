@@ -1,0 +1,25 @@
+[
+  {
+    "timestamp": "2026-03-05T00:08:31.147Z",
+    "targetPath": "/Users/bparlan/.pi/agent/memory/MEMORY.md",
+    "sessionsAnalyzed": 7,
+    "correctionsFound": 2,
+    "editsApplied": 2,
+    "summary": "Two main patterns were observed: prioritizing GitHub integration was emphasized due to prior missteps, leading to a strengthened existing rule. Additionally, a major learning was added about using a pure React + TypeScript stack for front-end projects, reflecting challenges faced in mixed-stack environments.",
+    "diffLines": 5,
+    "correctionRate": 0.2857142857142857,
+    "edits": [
+      {
+        "type": "strengthen",
+        "section": "Project-agnostic / Cross-project Learnings",
+        "reason": "User expressed frustration about errors in previous integrations and highlighted the importance of prioritizing GitHub integration first before others, suggesting a more direct emphasis could prevent these mistakes in future sessions."
+      },
+      {
+        "type": "add",
+        "section": "Session Learnings (append here or let /reflect do it)",
+        "reason": "User identified the use of a mixed stack causing errors and highlighted this as a critical lesson for frontend projects, especially with interactive components. Adding this learning captures a repeated issue and lesson."
+      }
+    ],
+    "sourceDate": "2026-02-19"
+  }
+]
